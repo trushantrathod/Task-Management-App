@@ -100,25 +100,6 @@ The majority of the project was built independently to demonstrate strong proble
 
 ---
 
-## 📹 Demo Video
-
-👉 Add your demo link here (Google Drive / YouTube)
-
----
-
-## 📁 Project Structure (Simplified)
-
-```
-lib/
-│── models/        # Data models
-│── screens/       # UI screens
-│── services/      # API / storage logic
-│── widgets/       # Reusable components
-│── main.dart      # Entry point
-```
-
----
-
 ## 💡 Key Learnings
 
 * State management in Flutter
@@ -126,15 +107,6 @@ lib/
 * Local storage integration
 * Debugging and improving app performance
 * Structuring scalable Flutter applications
-
----
-
-## 🔮 Future Improvements
-
-* ✏️ Edit and delete tasks
-* 🔍 Search and filter functionality
-* ☁️ Cloud-based storage (Firebase)
-* 🎨 Improved UI/UX with animations
 
 ---
 
