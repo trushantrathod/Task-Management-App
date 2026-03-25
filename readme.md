@@ -1,70 +1,149 @@
-# FlowTask - Task Management App
+# 📋 Task Management App
 
-A full-stack Task Management application built as part of the Flodo AI Take-Home Assignment.
-
----
-
-## 🚀 Tech Stack
-
-### Frontend
-- Flutter (Dart)
-- Provider (State Management)
-
-### Backend
-- FastAPI (Python)
-- SQLite Database
+A clean and efficient **Task Management Application** built using **Flutter**, designed to help users create, manage, and track their daily tasks with ease.
 
 ---
 
-## ✨ Features
+## 🚀 Features
 
-### Core Features
-- Create, Read, Update, Delete (CRUD) tasks
-- Task fields:
-  - Title
-  - Description
-  - Due Date
-  - Status (To-Do, In Progress, Done)
-  - Blocked By (dependency on another task)
+* ➕ Add new tasks with title and description
+* 📄 View all tasks in a structured list
+* 💾 Persistent data storage (SharedPreferences / API)
+* 🎯 Simple and user-friendly interface
+* 📱 Responsive design for different screen sizes
 
 ---
 
-### UI & UX
-- Clean and responsive UI
-- Blocked tasks are visually greyed out and disabled
-- Status-based color indicators
-- Loading indicator with 2-second simulated delay
-- Prevents duplicate submissions
+## 🛠️ Tech Stack
+
+* **Frontend:** Flutter (Dart)
+* **Storage:** SharedPreferences / API Integration
+* **Architecture:** Modular & scalable structure
 
 ---
 
-### Functionality
-- 🔍 Search tasks by title
-- 🎯 Filter tasks by status
-- ✏️ Edit existing tasks (pre-filled form)
-- 🗑 Delete tasks
-- ✅ Toggle task status (Done / To-Do)
+## 📦 Step-by-Step Setup Instructions
+
+Follow these steps to run the project locally:
+
+### 1️⃣ Prerequisites
+
+Make sure you have:
+
+* Flutter SDK installed → https://docs.flutter.dev/get-started/install
+* Android Studio / VS Code
+* Emulator or physical device
 
 ---
 
-### Advanced Requirement
-- 💾 Draft persistence:
-  - If user leaves the form, input is saved locally using SharedPreferences
-  - Draft reloads automatically when reopening the form
-
----
-
-## 📱 Screens
-
-- Home Screen (Task List)
-- Task Creation / Edit Screen
-
----
-
-## ⚙️ Setup Instructions
-
-### 1. Clone Repository
+### 2️⃣ Clone the Repository
 
 ```bash
-git clone <your-repo-link>
-cd flowtask_app
+git clone https://github.com/trushantrathod/Task-Management-App.git
+cd Task-Management-App
+```
+
+---
+
+### 3️⃣ Install Dependencies
+
+```bash
+flutter pub get
+```
+
+---
+
+### 4️⃣ Run the Application
+
+```bash
+flutter run
+```
+
+---
+
+### ⚠️ Notes
+
+* Ensure an emulator is running OR a device is connected
+* If build fails, try:
+
+```bash
+flutter clean
+flutter pub get
+```
+
+---
+
+## 🎯 Assignment Details
+
+* **Selected Track:** Track A – Flutter App Development
+* **Stretch Goal:** Not implemented
+
+---
+
+## 🤖 AI Usage Report
+
+AI tools were used **sparingly and responsibly** during development.
+
+### Where AI was used:
+
+* Debugging specific runtime or API-related issues
+* Understanding error messages and resolving them faster
+
+### Where AI was NOT used:
+
+* Core application logic
+* UI design and layout
+* Feature implementation
+* Project structure and architecture
+
+The majority of the project was built independently to demonstrate strong problem-solving skills and a clear understanding of Flutter development.
+
+---
+
+## 📹 Demo Video
+
+👉 Add your demo link here (Google Drive / YouTube)
+
+---
+
+## 📁 Project Structure (Simplified)
+
+```
+lib/
+│── models/        # Data models
+│── screens/       # UI screens
+│── services/      # API / storage logic
+│── widgets/       # Reusable components
+│── main.dart      # Entry point
+```
+
+---
+
+## 💡 Key Learnings
+
+* State management in Flutter
+* Handling user input and form validation
+* Local storage integration
+* Debugging and improving app performance
+* Structuring scalable Flutter applications
+
+---
+
+## 🔮 Future Improvements
+
+* ✏️ Edit and delete tasks
+* 🔍 Search and filter functionality
+* ☁️ Cloud-based storage (Firebase)
+* 🎨 Improved UI/UX with animations
+
+---
+
+## 🙌 Author
+
+**Trushant Rathod**
+
+---
+
+## ⭐ Final Note
+
+This project demonstrates my ability to build a complete Flutter application, handle data persistence, and structure code efficiently while maintaining clean UI and usability.
